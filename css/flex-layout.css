@@ -4,15 +4,16 @@
 .flex-container {
     display: flex;
     flex-direction: column;
+    min-width: auto;
+    gap: 1rem;
     align-items: center; /* Center items horizontally */
     justify-content: center; /* Center items vertically */
-    min-height: 100vh; /* Container takes at least the full height of viewport */
     background-color: #333; /* Dark background color*/
     color: #fff; /* White text for contrast /
   }
   
 .flex-item {
-    background-color:  rgba (255, 255, 255, 0.1); /* Semi-tansparent white background */
+   back-ground color: rgba(255, 255, 255, 0.1); /* Semi-tansparent white background */
     border: 1px solid rgba(255, 255, 255, 0.2); /* Light border color */
     padding: 2em;
     margin: 1rem;
@@ -21,4 +22,5 @@
     width: 100%; /* full width to fit containers width */
     max-width: 600px;/* Max width to control items size */
     text-align: center; /* Center text inside the items */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
