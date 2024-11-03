@@ -12,7 +12,7 @@
   }
   
 .flex-item {
-    background-color: rgba(255, 255, 255, 0.1); /* Semi-tansparent white background */
+    background-color:  rgba (255, 255, 255, 0.1); /* Semi-tansparent white background */
     border: 1px solid rgba(255, 255, 255, 0.2); /* Light border color */
     padding: 2em;
     margin: 1rem;
@@ -20,6 +20,5 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, .2); /* Add shadow */
     width: 100%; /* full width to fit containers width */
     max-width: 600px;/* Max width to control items size */
-    text-align: center; /* Center tex inside the items */
-    transition: transform 0.3s ease, box-shadow 0.3 ease; /* Add smooth transition */
+    text-align: center; /* Center text inside the items */
 }
