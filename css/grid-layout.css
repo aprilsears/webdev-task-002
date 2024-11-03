@@ -3,13 +3,22 @@
 
 .grid-container {
     display: grid;
-    gap: 2rem;
+    grid-template-columns: repeat(3, 1 fr);
+    gap: 1rem;
+    padding: 2rem;
+    background: linear-gradient(from bottom to right, #43cea2, #185a9d); /* Add gradient background */
+    border-radius: 1rem;/* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
 }
   
 .grid-item {
-    background-color: rgba(var(--grid-color), 0.25);
-    border: 1px solid rgba(var(--grid-color), 1);
-    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.8); /* Use semi-transparent white back-ground */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Light border color */
     padding: 2em;
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba( 0, 0, 0, 0.1); /* Light border color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
   
