@@ -4,12 +4,22 @@
 .flex-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #333;
+    color: #fff;
     gap: 1rem;
   }
   
 .flex-item {
-    background-color: rgba(var(--flex-color), 0.25);
-    border: 1px solid rgba(var(--flex-color), 1);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     padding: 2em;
+    margin: 1rem;
     border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3 ease;
 }
