@@ -6,17 +6,17 @@
     grid-template-columns: repeat(3, 1 fr);
     gap: 2rem;
     padding: 3rem;
-    background: linear-gradient(from bottom to right, #f974f0, #700d4a); /* Add gradient background */
+    background: linear-gradient(from bottom to right, #783774, #2b0021); /* Add gradient background */
     border-radius: 1rem;/* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    box-shadow: 0 4px 8px rgba(42, 7, 7, 0.1); /* Add shadow */
 }
   
 .grid-item {
-    background-color: rgba(255, 255, 255, 0.8); /* Use semi-transparent white back-ground */
-    border: 1px solid rgba(228, 54, 109, 0.1); /* Light border color */
+    background-color: rgb(92, 43, 43); /* Use semi-transparent white back-ground */
+    border: 1px solid rgba(83, 13, 35, 0.741); /* Light border color */
     padding: 2em;
     border-radius: 2rem;
-    box-shadow: 0 2px 4px rgba( 0, 0, 0, 0.1); /* Light border color */
+    box-shadow: 0 2px 4px rgba(49, 1, 1, 0.1); /* Light border color */
     display: flex;
     justify-content: center;
     align-items: center;
