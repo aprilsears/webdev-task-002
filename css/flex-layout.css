@@ -21,7 +21,7 @@
     border-radius: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .2); /* Add shadow */
     width: 100%; /* full width to fit containers width */
-    max-width: 600px;/* Max width to control items size */
+    max-width: none;/* Max width to control items size */
     text-align: center; /* Center text inside the items */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
