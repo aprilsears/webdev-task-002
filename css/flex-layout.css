@@ -5,18 +5,19 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Container takes full height of viewport */
+    min-width: none;
     gap: 1rem;
     align-items: center; /* Center items horizontally */
     justify-content: center; /* Center items vertically */
-    background-color: #333; /* Dark background color*/
-    color: #fff; /* White text for contrast /
+    background-color: #2b010b; /* Dark background color*/
+    color: #eae3e3; /* White text for contrast /
   }
   
 .flex-item {
    back-ground color: rgba(255, 255, 255, 0.1); /* Semi-tansparent white background */
     border: 1px solid rgba(255, 255, 255, 0.2); /* Light border color */
     padding: 2em;
-    margin: 1rem;
+    margin: 1rem 1rem 2rem 2rem;
     border-radius: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .2); /* Add shadow */
     width: 100%; /* full width to fit containers width */
