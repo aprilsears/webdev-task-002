@@ -1,0 +1,52 @@
+@import url("reset.css");
+
+header, 
+article, 
+aside,
+footer {
+
+    border: 2px solid red;
+    background-color: aqua;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+
+.column {
+    border:  2px dotted orange;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+article {
+    display: flex;flex-direction: column;
+}
+
+
+/*Desktop*/
+
+@media only screen and 
+(min-width: 400px) {
+
+    
+.column {
+    border:  2px dashed green;
+     background-color: blueviolet;
+
+    }
+
+}   
+
+/*Tablet*/
+
+@media only screen and 
+(min-width: 450px) {
+
+    
+.column {
+    border:  2px dashed green;
+     background-color: blueviolet;
+
+    }
+
+}   
